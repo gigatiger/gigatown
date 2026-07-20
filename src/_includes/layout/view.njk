@@ -1,0 +1,43 @@
+
+  
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/art.css">
+    <title>{{ title }}</title>
+  </head>
+  
+  {% include "partials/topnav.njk" %}
+
+
+
+
+   <div class="navlinks">
+<!-- Pagination -->
+
+{% set previousPost = collections.art | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.art | getNextCollectionItem(page) %}
+{% include "../partials/paginate.njk" %}
+
+</div>
+
+<div class="viewcon">
+<div class= "upclose">
+  {{ content | safe }}
+
+</div>
+</div>
+
+<div class="atags">
+        {% for tag in tags %}
+    
+            <a href="/art/tagged/{{ tag | slugify }}" class="tags" >#{{ tag }} </a>
+        
+        {% endfor %}
+    </div>
+
+
+

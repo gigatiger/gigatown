@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/blog.css">
+    <title>{{ title }}</title>
+  </head>
+
+  {% include "partials/topnav.njk" %}
+<body>
+<div class="postsBar">
+
+{{ content | safe }}
+
+</div>
+<div class="main">
+{% include "partials/read.njk" %}
+</div>
+
+</body>

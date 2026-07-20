@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ title }}</title>
+  </head>
+
+
+  <body>
+
+    <!-- grid container start -->
+   <div class="crt">
+    <div class="grid-container">
+   
+    <div class="leftSB">
+  
+  <div class="boxTitle">NAVIGATION</div>
+   <div class="conBox"> <nav>{% include "partials/navbar.njk" %} </nav> </div>
+
+   <div class="boxTitle">Update Log</div>
+   <div class="conBox">
+   <style>
+#scroll2 {
+height: auto;
+width: 100%;
+padding: 10px;
+font-size: 20px;
+font-family: PC9800, sans-serif;
+overflow: auto;
+color: #fff;
+}
+ 
+</style>
+<div id="scroll2">
+<strong>check back soon!</strong>
+<p></p>
+<p>07/12/2026: blog page up soon, jsut figuring out how to style an iframe ;;. also splitting focus between this blog and new project</p>
+<p>07/09/2026: added update box, added icon menu in main, added shrines page. shrine ideas: ftm shrine, Face Miner shrine</p>
+</div>
+   
+   </div>
+   <div class="boxTitle">LINK BACK</div>
+   <div class="conBox">
+      {% include "partials/linkback.njk" %}
+      </div>
+    </div>
+
+    
+   
+ <main>
+ <div class="boxTitle">WELCOME!</div>
+ <div class="conBox">
+ <div class="main-menu">
+ {% include "partials/welcome.njk" %}
+ </div>
+ {{ content | safe }}
+ </div>
+ <div class="boxTitle">FEATURED COMIC</div>
+ <div class="conBox">
+     <nav>{% include "partials/comic.njk" %} </nav>
+ </div>
+ </main>
+  
+
+
+    <div class="rightSB">
+
+    <div class="boxTitle">GUESTBOOK</div>
+<div class="conBox">
+{% include "partials/guestbook.njk" %}
+</div>
+
+
+<div class="boxTitle">ADS</div>
+<div class="conBox">
+{% include "partials/adbox.njk" %}
+</div>
+
+   </div>
+   </div>
+    </div>
+    <footer>{% include "partials/footer.njk" %}</footer>
+    
+  </body>
+
+  
+</html>

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ title }}</title>
+  </head>
+
+
+  <body>
+
+    <!-- grid container start -->
+   <div class="crt">
+    <div class="grid-container">
+   
+    <div class="leftSB">
+    {% include "partials/gigarap.njk" %}
+    
+    <nav>{% include "partials/navbar.njk" %} </nav>
+    </div>
+
+    
+   
+ <main>{{ content | safe }}</main>
+  
+
+
+    <div class="rightSB">
+<p>I really like music, especially rap and hip hop. I violently stim to music sometimes. This page will be a running list of songs that make me go 'woah' when I hear them. I am both interested in Lyrics and melodies and I love a good beat drop/switch-up. I also love heavy lyrics, even if they're a little edgy. This is my song yapping corner, please enjoy.</p>
+   </div>
+   </div>
+    </div>
+    <footer>{% include "partials/footer.njk" %}</footer>
+    
+  </body>
+
+  
+</html>

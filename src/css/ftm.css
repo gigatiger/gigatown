@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Yoster";
+  src: url("/fonts/yoster.woff") format("woff");
+}
+
+                  @font-face {
+                      font-family: Romance;
+                      src: url("/fonts/RomanceA.ttf");
+                      
+                  }
+
+                  @font-face {
+                      font-family: plushie;
+                      src: url("/fonts/plushie.woff");
+                      
+                  }
+
+                  @font-face {
+                      font-family: PC9800;
+                      src: url("/fonts/pc-9800.ttf");
+             
+                  }
+
+                         @font-face {
+                      font-family: PC9800;
+                      src: url("/fonts/pc-9800-bold.ttf");
+                      font-weight: bold;
+                  }
+
+                        @font-face {
+                      font-family: Rainy;
+                      src: url("/fonts/rainyhearts.ttf");
+             
+                  }
+                      @font-face {
+                      font-family: MonoR;
+                      src: url("/fonts/mononoki-Regular.ttf");
+             
+                  }
+          
+                  @font-face {
+  font-family: "Alk";
+  src: url("/fonts/Alkhemikal.ttf") format("truetype");
+                  }
+                   @font-face {
+                      font-family: Kiwi;
+                      src: url("/fonts/KiwiSoda.ttf");
+             
+                  }
+
+                  a:link {
+  color: rgb(67, 177, 228);
+}
+
+
+
+body {
+	font-family: 'Alk', sans-serif;
+  background-color: #0003c9;
+color: #fff;
+font-size:25px;
+  
+
+
+}
+
+body a{
+
+font-size:30px;
+
+
+}
+
+.postsBar {
+    width: 400px;
+    min-height: 100%;
+    border-right: 1px solid #ffffff;
+    padding: 20px;
+    position: fixed;
+    overflow: auto;
+}
+
+.postList {
+    display: block;
+
+
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+	border: none;
+    font-family:'Alk', Times, serif;
+    color: #fff;
+}
+
+main{
+    font-family: 'Alk', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+
+
+}
