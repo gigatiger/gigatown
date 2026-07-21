@@ -3,7 +3,7 @@ layout: layout/blog.njk
 permalink: /blog/
 ---
 
-Blog
+
 <ul>
 {% for post in collections.posts %}
   <li>
