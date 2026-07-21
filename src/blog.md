@@ -4,8 +4,6 @@ permalink: /blog/
 ---
 
 
-<h1>Blog Posts</h1>
-
 <ul>
 {% for post in collections.posts %}
   <li>
