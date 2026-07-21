@@ -27,8 +27,9 @@ jobs:
     # If you have a different build process, replace this with your own build steps
     - name: Install deps and build
       run: |
-        npm i
-        npm run build
+        npm ci
+    chmod +x node_modules/.bin/eleventy
+    npm run build
     # When the dist_dir is ready, deploy it to neocities
     # Here we deploy the folder named `public`
     - name: Deploy to neocities
