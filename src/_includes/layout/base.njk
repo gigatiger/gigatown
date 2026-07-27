@@ -9,11 +9,19 @@
     <title>{{ title }}</title>
   </head>
 
+ <div class="header">
 
+<img src="img/ff1.png" />
+
+ </div>
   <body>
+  <div class="crt">
 
+
+  
     <!-- grid container start -->
-   <div class="crt">
+  
+
     <div class="grid-container">
    
     <div class="leftSB">
@@ -23,24 +31,7 @@
 
    <div class="boxTitle">Update Log</div>
    <div class="conBox">
-   <style>
-#scroll2 {
-height: auto;
-width: 100%;
-padding: 10px;
-font-size: 20px;
-font-family: PC9800, sans-serif;
-overflow: auto;
-color: #fff;
-}
- 
-</style>
-<div id="scroll2">
-<strong>check back soon!</strong>
-<p></p>
-<p>07/12/2026: blog page up soon, jsut figuring out how to style an iframe ;;. also splitting focus between this blog and new project</p>
-<p>07/09/2026: added update box, added icon menu in main, added shrines page. shrine ideas: ftm shrine, Face Miner shrine</p>
-</div>
+<p>7/26/2026: Separating site into sections for FFXIV content (like a character page) and FTM content- updates coming soon! also getting into ffxiv rp!</p>
    
    </div>
    <div class="boxTitle">LINK BACK</div>
@@ -59,9 +50,11 @@ color: #fff;
  </div>
  {{ content | safe }}
  </div>
- <div class="boxTitle">FEATURED COMIC</div>
+ <div class="boxTitle">ABOUT THIS SITE</div>
  <div class="conBox">
-     <nav>{% include "partials/comic.njk" %} </nav>
+ <div class="conItems">
+     {% include "partials/ats.njk" %}
+     </div>
  </div>
  </main>
   

@@ -183,19 +183,49 @@ color: #fff;
 }
 
 .postsBar {
+  font-family: 'Rainy';
     width: 400px;
     min-height: 100%;
     border-right: 1px solid #ffffff;
     padding: 20px;
     position: fixed;
     overflow: auto;
+  
 }
+
+.postsBar a{
+
+color: #fff;
+
+
+
+
+}
+
+.postsBar a:hover{
+
+color: #eed026;
+
+
+
+}
+
+.postsBar a:visited{
+
+color: #eed026;
+
+
+
+}
+
 
 .postList {
     display: block;
 
 
 }
+
+
 
 .content {
 border: 3px solid #fff;
@@ -207,12 +237,24 @@ justify-content: left;
 
 }
 
+.blogPost{
+  display: flexbox;
+ width: 750px;
+background-color: #eeeeee;
+color: #161616;
+padding: 30px;
+font-family: 'BS';
+
+}
+
+
 iframe {
 	height: 100%;
 	width: 100%;
 	border: none;
     font-family:'Alk', Times, serif;
     color: #fff;
+    
 }
 
 main{

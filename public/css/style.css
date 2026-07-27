@@ -58,6 +58,31 @@
   color: rgb(67, 177, 228);
 }
 
+.header{
+
+position: relative;
+width: 1000px;
+margin: auto;
+
+
+
+}
+
+.header img{
+
+position: relative;
+width:100%;
+padding-left: 80px;
+border-radius: 6px;
+    border-image-source: url('/img/monitor.png');
+    border-image-slice: 65 93 68 82;
+    border-image-width: 50px;
+    border-image-repeat: round;
+
+
+}
+
+
 
 
 body {
@@ -65,6 +90,13 @@ body {
     background-color: #dad6ca;
    background-image: url('/img/qinbg.jpg');
   
+
+
+}
+.topImg{
+
+position: absolute;
+margin-right: 50px;
 
 
 }
@@ -84,6 +116,7 @@ position: relative;
 
 
 }
+
 
 .rightSB{
  
@@ -186,7 +219,7 @@ border-radius: 6px;
     background-image: url('/img/bg3.jpg');
     max-width: 1500px;
     width: 100%;
-    margin: 50px auto;
+    margin: 0 auto;
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 4px 21px 26px 17px rgba(0, 0, 0, 0.39);
@@ -401,13 +434,28 @@ main{
     min-width: 0;
 }
 .conBox{
+  
 background-color: #0000AA;
-color: #000;
+color: #fff;
+
 padding:30px;
   border-right: 10px ridge #bdb8aa;
   border-bottom: 10px ridge #bdb8aa;
   border-left: 10px ridge #bdb8aa;
 margin-bottom:10px;
+
+
+}
+
+.conItems{
+    
+display: flex;
+
+
+
+
+
+
 
 }
 .boxTitle{
