@@ -1,0 +1,14 @@
+
+{% if nextPost %}
+        <a href="{{ nextPost.url }}"><img src='/img/84r.gif'></a>
+    {% endif %}
+    
+
+  <a href="javascript:window.history.back();"><img src='/img/home.gif'></a>
+    
+
+   
+    {% if previousPost %}
+        <a href="{{ previousPost.url }}"><img src='/img/84l.gif'></a>
+    {% endif %}
+    

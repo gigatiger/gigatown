@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Gigasite Transmissions</title>
+  <description>Giga's blog for ftm programming</description>
+  <link>https://gigasite.nekoweb.org</link>
+  <lastBuildDate>
+    Fri, 10 Jul 2026 06:52:18 +0000
+  </lastBuildDate>
+  <ttl>1440</ttl>
+
+  <item>
+    <title>hello+ftm archive project</title>
+    <description>
+      blog page up + new project announcement (ftm archive)
+    </description>
+    <link>https://gigasite.nekoweb.org/blog/</link>
+    <pubDate>
+      Monday, 13-Jul-26 02:06:21 UTC
+    </pubDate>
+  </item>
+
+
+
+</channel>
+</rss>

@@ -1,0 +1,342 @@
+@font-face {
+  font-family: "Yoster";
+  src: url("/fonts/yoster.woff") format("woff");
+}
+
+
+                            @font-face {
+                      font-family: BS;
+                      src: url("/fonts/BS.ttf");
+             
+                  }
+          
+
+                  @font-face {
+                      font-family: Romance;
+                      src: url("/fonts/RomanceA.ttf");
+                      
+                  }
+
+                  @font-face {
+                      font-family: plushie;
+                      src: url("/fonts/plushie.woff");
+                      
+                  }
+
+                  @font-face {
+                      font-family: PC9800;
+                      src: url("/fonts/pc-9800.ttf");
+             
+                  }
+
+                         @font-face {
+                      font-family: PC9800;
+                      src: url("/fonts/pc-9800-bold.ttf");
+                      font-weight: bold;
+                  }
+
+                        @font-face {
+                      font-family: Rainy;
+                      src: url("/fonts/rainyhearts.ttf");
+             
+                  }
+                      @font-face {
+                      font-family: MonoR;
+                      src: url("/fonts/mononoki-Regular.ttf");
+             
+                  }
+
+                          @font-face {
+                      font-family: BS;
+                      src: url("/fonts/BS.ttf");
+             
+                  }
+          
+                  @font-face {
+  font-family: "Alk";
+  src: url("/fonts/Alkhemikal.ttf") format("truetype");
+                  }
+                   @font-face {
+                      font-family: Kiwi;
+                      src: url("/fonts/KiwiSoda.ttf");
+             
+                  }
+
+                  a:link {
+  color: rgb(67, 177, 228);
+}
+
+h1, h2, h2{
+
+font-family: 'BS', sans-serif;
+
+
+}
+
+body {
+	font-family: 'Alk', sans-serif;
+  background-color: #0003c9;
+color: #fff;
+font-size:25px;
+}
+  
+.tbn img{
+width: 150px;
+
+}
+
+
+.atags{
+
+display: flex;
+margin: 0 auto;
+padding: 20px;
+
+
+}
+.atags a{
+
+
+margin: 0 auto;
+padding: 20px;
+text-decoration: none;
+
+
+}
+
+.artshow{
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+
+
+
+}
+
+.viewcon{
+margin-left: 150px;
+margin-right: 150px;
+display: flex;
+align-self: center;
+justify-content: center;
+
+
+}
+
+.upclose{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+}
+
+.upclose img{
+width: 900px;
+ border: 50px solid;
+    border-image: url(/img/bor1.png) 50;    
+    margin: 5px;
+    background: #120172;
+
+
+}
+.artshow img{
+width: 150px;
+
+}
+
+
+.navlinks{
+
+margin-left: auto;
+margin-right: auto;
+display: flex;
+width: 100%;
+justify-content: space-between;
+
+
+
+}
+
+.caption{
+
+border: 3px solid #fff;
+
+
+}
+.navlinks img{
+  display: flex;
+  flex-wrap: wrap;
+align-items: center;
+width: 100px;
+margin-top: 40px;
+
+}
+.credit a{
+
+font-size:30px;
+
+
+}
+
+.credit a:visited{
+
+color: #000;
+
+
+}
+
+.credit a:hover{
+
+               
+    color: rgb(255, 220, 61);
+    font-family: 'BS', monospace;
+    text-decoration: underline;
+    font-size: 30px;
+height: auto;
+
+
+}
+
+.top-menu{
+  background-color: #0000AA;
+  overflow: hidden;
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+
+
+
+}
+
+.top-menu a{
+    margin-right:6px;
+color: #ffffff;
+font-family: 'BS', sans-serif;
+font-size: 30px;
+text-decoration: none;
+
+
+
+}
+
+.top-menu a:active{
+
+
+color: rgb(253, 255, 118);
+
+
+}
+
+.top-menu a:hover{
+
+color:#aa9f00; 
+ color: rgb(255, 220, 61);
+    font-family: 'BS', monospace;
+    text-decoration:none;
+    font-size: 30px;
+height: auto;
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .top-menu a:not(:first-child) {display: none;}
+  .top-menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-menu.responsive {position: relative;}
+  .top-menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.postsBar {
+    width: 400px;
+    min-height: 100%;
+    border-right: 1px solid #ffffff;
+    padding: 20px;
+    position: fixed;
+    overflow: auto;
+}
+
+.postList {
+    display: block;
+
+
+}
+
+.content {
+border: 3px solid #fff;
+padding:50px;
+display: flex;
+justify-content: left;
+
+
+
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+	border: none;
+    font-family:'Alk', Times, serif;
+    color: #fff;
+}
+
+main{
+    font-family: 'Alk', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+
+
+}
+
+.crt::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+.crt::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+.crt {
+  animation: textShadow 1.6s infinite;
+}
