@@ -61,9 +61,26 @@
 .header{
 
 position: relative;
+z-index: 10; 
 width: 1000px;
-margin: auto;
+margin-bottom: -50px;
+margin-left: 500px;
 
+
+
+}
+
+.iD{
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    overflow-x:auto;
+display: flex;
+background-color: #eff3cd;
+opacity: 1;
+background-image:  linear-gradient(#b2d5ba 1.3px, transparent 1.3px), linear-gradient(to right, #b2d5ba 1.3px, #eff3cd 1.3px);
+background-size: 26px 26px;
+padding: 60px;
 
 
 }
@@ -198,7 +215,7 @@ border-radius: 6px;
     border-image-slice: 65 93 68 82;
     border-image-width: 50px;
     border-image-repeat: round;
-
+    z-index: 1;
     background-color: #000000;
     display: grid;
    grid-template-columns: 2fr 5fr 2fr;
