@@ -1,6 +1,6 @@
 ---
 layout: layout/shrines.njk
-permalink: /shrines/
+permalink: /shrine/
 ---
 
 ## 18+ Content Warning
