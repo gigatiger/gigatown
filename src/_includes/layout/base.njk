@@ -10,10 +10,11 @@
   </head>
 
  <div class="header">
-
-<img style="width: 800px"; src="/img/aflog.gif" />
+ 
+<img style="width: 800px"; src="/img/aflog.gif" />  
 
  </div>
+
   <body>
   <div class="crt">
 
@@ -27,6 +28,7 @@
     <div class="leftSB">
   
   <div class="boxTitle">NAVIGATION</div>
+  
    <div class="conBox"> <nav>{% include "partials/navbar.njk" %} </nav> </div>
 
    <div class="boxTitle">Update Log</div>
@@ -45,14 +47,20 @@
  <main>
  <div class="boxTitle">WELCOME!</div>
  <div class="conBox">
+  <center><a href="/sytyt/"><button class="btn-99">I think I'm trans</button></a></center>
  <div class="main-menu">
+
  {% include "partials/welcome.njk" %}
  </div>
  {{ content | safe }}
  </div>
+
+
+<div class="clear"></div>
  <div class="boxTitle">JUNK BOX</div>
  <div class="conBox">
  <div class="conItems">
+      
      {% include "partials/imgDisplay.njk" %}
      </div>
  </div>

@@ -1,11 +1,9 @@
 ---
-title: IKnowHisName
-date: 2026-07-12
+title: Transmanuscript
+date: 2026-11-26
 layout: partials/blogentries.njk
 tags:
     - posts
 permalink: /blog/posts/blog1/
 ---
-Hello, first off I just barely got my blog page working, but it should be up and functional. This site right here is my personal website, but IKnowHisName is a seperate site I am currently focusing on. IKnowHisName will be a website aimed archiving the names and lives of ftm men, compiling resources for ftm men, and displaying educational resources for ftm men. I would also like for that site to have a blog feature, but I am debating whether or not I should attach my personal thoughts/opinions to a website focused on archival and memory. I'm not sure yet, I would like to execute this project respectfully, but that might be a problem for another day. 
-
-Oh yeah. You can call me Giga, he/him, internet artist and transsexual
+I'm decently happy with my progress on this website, hoping to make gradual tweaks to give it more of an 'old web' theme, really hoping to make a webring for ftm/trans programmers, thought that might be cool. But first I want to get a checklist going to make sure I hit all my objectives for my site. Sitemap, rss feed, status cafe...lots of ideas. might add a comments section instead of a guest book too
