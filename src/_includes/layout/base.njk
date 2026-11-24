@@ -23,19 +23,18 @@
     <!-- grid container start -->
   
 
-    <div class="grid-container">
+    <div class="flex-container">
    
-    <div class="leftSB">
+      <div class="leftSB">
   
-  <div class="boxTitle">NAVIGATION</div>
+        <div class="boxTitle">NAVIGATION</div>
   
-   <div class="conBox"> <nav>{% include "partials/navbar.njk" %} </nav> </div>
+          <div class="conBox"> <nav>{% include "partials/navbar.njk" %} </nav> </div>
 
-   <div class="boxTitle">Update Log</div>
-   <div class="conBox">
-    <img src="img/dbd2.gif">
-   
-   </div>
+           <div class="boxTitle">Update Log</div>
+         <div class="conBox">
+         <img src="img/dbd2.gif">
+          </div>
    <div class="boxTitle">LINK BACK</div>
    <div class="conBox">
       {% include "partials/linkback.njk" %}
@@ -45,6 +44,14 @@
     
    
  <main>
+ <div class="boxTitle">JUNK BOX</div>
+ <div class="conBox">
+ <div class="conItems">
+      
+     {% include "partials/imgDisplay.njk" %}
+     </div>
+ </div>
+
  <div class="boxTitle">WELCOME!</div>
  <div class="conBox">
   <center><a href="/sytyt/"><button class="btn-99">I think I'm trans</button></a></center>
@@ -57,19 +64,16 @@
 
 
 <div class="clear"></div>
- <div class="boxTitle">JUNK BOX</div>
- <div class="conBox">
- <div class="conItems">
-      
-     {% include "partials/imgDisplay.njk" %}
-     </div>
- </div>
+ 
  </main>
   
 
 
     <div class="rightSB">
-
+<div class="boxTitle">STATUS</div>
+<div class="conBox">
+<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=androgenfeeds" defer></script>
+</div>
     <div class="boxTitle">GUESTBOOK</div>
 <div class="conBox">
 {% include "partials/guestbook.njk" %}
