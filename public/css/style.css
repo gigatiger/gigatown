@@ -699,6 +699,81 @@ box-sizing:border-box;
 margin:0 auto;
 }
 
+.wrInfo{
+
+    margin: 0 auto;
+
+
+
+}
+.top-menu{
+  background-color: #0000AA;
+  overflow: hidden;
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+
+
+
+}
+
+.top-menu a{
+    margin-right:6px;
+color: #ffffff;
+font-family: 'BS', sans-serif;
+font-size: 30px;
+text-decoration: none;
+
+
+
+}
+
+.top-menu a:active{
+
+
+color: rgb(253, 255, 118);
+
+
+}
+
+.top-menu a:hover{
+
+color:#aa9f00; 
+ color: rgb(255, 220, 61);
+    font-family: 'BS', monospace;
+    text-decoration:none;
+    font-size: 30px;
+height: auto;
+
+
+
+}
+.top-menu a:active{
+
+
+color: rgb(253, 255, 118);
+
+
+}
+
+.webringulist{
+
+
+    
+  url: "https://example1.com/",
+  title: "Example1",
+  description: "Example Description",
+  buttonUrl: "https://example1.com/button.png",
+
+}
+
+.top-menu a:visited{
+
+
+color: #fff;
+
+}
 
 
 main{

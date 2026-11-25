@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ title }}</title>
+  </head>
+
+ <div class="header">
+   {% include "partials/topnav.njk" %}
+<img style="width: 800px"; src="/img/aflog.gif" />  
+
+ </div>
+
+<script>
+  // List of members. You need to update this by hand. 
+  const members = [
+    {
+      url: "https://androgenfeed.neocities.org/",
+      title: "Androgenfeed"
+      description: "Trans Man in Turmoil (but he can code!)",
+      buttonUrl: "img/afbutton",
+    },
+  
+  ];
+</script>
+<script src="https://petrapixel.neocities.org/assets/js/webringu.js?nocache=1"></script>
+  <body>
+  <div class="crt">
+
+
+  
+    <!-- grid container start -->
+  
+
+    <div class="flex-container">
+   
+      <div class="wrInfo">
+  
+       
+          
+
+   
+    </div>
+
+    
+   
+ <main>
+ {% include "webring/wrcode.njk" %}
+
+ 
+
+
+<div class="clear"></div>
+ 
+ </main>
+  
+
+
+    <div class="rightSB">
+
+    
+  </body>
+
+  
+</html>
